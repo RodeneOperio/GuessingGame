@@ -21,7 +21,7 @@ int main()
 	//Randomize number between 1-100
 	srand(time(NULL));
 	int num = rand() % 100 + 1;
-	cout << "The number is: " << num << endl;
+	//cout << "The number is: " << num << endl;
 
 	//Guessing Game Loop
 	while (maxTries != 0 && !correct)
